@@ -30,8 +30,6 @@
             <a href="https://pl.wikipedia.org/wiki/Golden_retriever" target="_blank">
                 <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=800" alt="Golden Retriever w ogrodzie" style="max-width: 100%; height: auto; border-radius: 5px; margin: 10px 0;">
             </a>
-           
-            
             <!-- ELEMENT FORMATUJĄCY HTML: Blok z cytatem (Punkt 6) -->
             <blockquote style="background-color: #edf2f7; border-left: 5px solid #2b6cb0; margin: 15px 0; padding: 10px 15px; font-style: italic;">
                 "Pies jest jedyną istotą na świecie, która kocha cię bardziej niż siebie samego." – Josh Billings
