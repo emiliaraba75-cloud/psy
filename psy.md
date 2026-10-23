@@ -104,7 +104,7 @@
                 </tr>
             </table>
             <!-- LINK ZEWNĘTRZNY (Punkt 4) -->
-            <p>Szukasz psa do adopcji? Odwiedź stronę <a href="https://www.schronisko.info" target="_blank" style="color: #319795; font-weight: bold;">Lokalnego Schroniska dla Zwierząt</a>.</p>
+            <p>Szukasz psa do adopcji? Odwiedź stronę <a href="https://schroniskochorzow.pl" target="_blank" style="color: #319795; font-weight: bold;">Lokalnego Schroniska dla Zwierząt</a>.</p>
         </section>
     </main>
     <!-- STOPKA -->
