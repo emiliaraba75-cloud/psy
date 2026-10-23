@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Ranking Najlepszych Ras Psów - Świat Czworonogów</title>
 </head>
 <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #2d3748; background-color: #f7fafc; margin: 20px;">
