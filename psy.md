@@ -26,9 +26,11 @@
                 Ich <span style="color: #dd6b20; font-weight: bold;">łagodne usposobienie</span> sprawia, że stają się nie tylko pupilami, ale pełnoprawnymi członkami rodziny. 
                 Trzeba jednak pamiętać, że wymagają one regularnej dawki ruchu oraz uwagi ze strony opiekunów.
             </p>
-            <!-- ZDJĘCIE LOKALNE (Punkt 2) - wymaga pliku pies.jpg w tym samym folderze -->
-         <!-- NA TO: -->
-<img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=800" alt="Golden Retriever w ogrodzie" style="max-width: 100%; height: auto; border-radius: 5px; margin: 10px 0;">
+            <!-- ZDJĘCIE Z LINKIEM ZEWNĘTRZNYM (Działa od razu i przenosi do Wikipedii po kliknięciu) -->
+            <a href="https://pl.wikipedia.org/wiki/Golden_retriever" target="_blank">
+                <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=800" alt="Golden Retriever w ogrodzie" style="max-width: 100%; height: auto; border-radius: 5px; margin: 10px 0;">
+            </a>
+            <!-- <img src="pies.jpg" alt="Golden Retriever w ogrodzie" style="max-width: 100%; height: auto; border-radius: 5px; margin: 10px 0;"> -->
             <!-- ELEMENT FORMATUJĄCY HTML: Blok z cytatem (Punkt 6) -->
             <blockquote style="background-color: #edf2f7; border-left: 5px solid #2b6cb0; margin: 15px 0; padding: 10px 15px; font-style: italic;">
                 "Pies jest jedyną istotą na świecie, która kocha cię bardziej niż siebie samego." – Josh Billings
@@ -40,7 +42,7 @@
                 <li>Labrador Retriever – skłonny do zabawy i bardzo wierny.</li>
                 <li>Berneński Pies Pasterski – spokojny olbrzym o wielkim sercu.</li>
             </ol>
-            <!-- LINK ZEWNĘTRZNY (Punkt 4) -->
+            <!-- LINK ZEWNĘTRZNY TEKSTOWY (Punkt 4) -->
             <p>Więcej o cechach psów rodzinnych przeczytasz na portalu <a href="https://www.psy.pl" target="_blank" style="color: #319795; font-weight: bold;">Psy.pl</a>.</p>
         </section>
         <!-- SEKCJA 2: Najinteligentniejsze Rasy -->
