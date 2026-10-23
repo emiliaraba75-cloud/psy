@@ -33,9 +33,8 @@
             <!-- ZDJĘCIE 2: Labrador Retriever (sprawdzony link) -->
             <!-- ZDJĘCIE 2: Labrador Retriever (działające bezpośrednio) -->
             <a href="https://pl.wikipedia.org/wiki/Labrador_retriever" target="_blank">
-                <img src="https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_1280.jpg" alt="Labrador Retriever" style="max-width: 100%; height: auto; border-radius: 5px; margin: 10px 0;">
-            </a>
-            <!-- ELEMENT FORMATUJĄCY HTML: Blok z cytatem (Punkt 6) -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/YellowLabradorLooking_new.jpg" alt="Labrador Retriever" style="max-width: 100%; height: auto; border-radius: 5px; margin: 10px 0;">
+</a>
             <blockquote style="background-color: #edf2f7; border-left: 5px solid #2b6cb0; margin: 15px 0; padding: 10px 15px; font-style: italic;">
                 "Pies jest jedyną istotą na świecie, która kocha cię bardziej niż siebie samego." – Josh Billings
             </blockquote>
