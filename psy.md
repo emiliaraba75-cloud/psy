@@ -1,4 +1,4 @@
-# Ranking Ras Psów
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
