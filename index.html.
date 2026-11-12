@@ -1,1 +1,213 @@
 
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking Najlepszych Ras Psów</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Ranking Najlepszych Ras Psów:
+        Wybór Idealnego Towarzysza</h1>
+    <p><i>Poznaj najpopularniejsze, najinteligentniejsze
+        i najbardziej oddane rasy psów na świecie.</i></p>
+</header>
+
+<nav>
+    <a href="#rodzinne">Psy rodzinne</a>
+    <a href="#inteligentne">Inteligentne rasy</a>
+    <a href="#mieszkanie">Psy do mieszkania</a>
+</nav>
+
+<main>
+
+    <!-- SEKCJA 1 -->
+
+    <section id="rodzinne">
+        <h2>Sekcja 1: Najlepsze Rasy dla Rodzin z Dziećmi</h2>
+
+        <p>
+            Wybór odpowiedniego psa do domu pełnego dzieci
+            to decyzja, która wymaga przemyślenia wielu kwestii.
+            Rasy rodzinne charakteryzują się niezwykłą
+            cierpliwością, łagodnym usposobieniem oraz
+            wysokim poziomem empatii.
+            W czołówce światowych rankingów od lat
+            niezmiennie królują <b>Golden Retrievery</b>
+            oraz <b>Labrador Retrievery</b>, które słyną
+            ze swojego przyjacielskiego nastawienia do ludzi.
+        </p>
+
+        <p>
+            Te wspaniałe psy doskonale odnajdują się
+            w aktywnych domach, gdzie mogą spędzać czas
+            na wspólnych zabawach na świeżym powietrzu.
+            Ich <span class="wyroznienie">łagodne usposobienie</span>
+            sprawia, że stają się nie tylko pupilami,
+            ale pełnoprawnymi członkami rodziny.
+            Trzeba jednak pamiętać, że wymagają one
+            regularnej dawki ruchu oraz uwagi
+            ze strony opiekunów.
+        </p>
+
+        <div class="galeria">
+            <a href="https://pl.wikipedia.org/wiki/Golden_retriever"
+               target="_blank" rel="noopener noreferrer">
+                <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?w=800"
+                     alt="Golden Retriever w ogrodzie">
+            </a>
+
+            <a href="https://pl.wikipedia.org/wiki/Labrador_retriever"
+               target="_blank" rel="noopener noreferrer">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/YellowLabradorLooking_new.jpg"
+                     alt="Labrador Retriever">
+            </a>
+        </div>
+
+        <blockquote>
+            "Pies jest jedyną istotą na świecie,
+            która kocha cię bardziej niż siebie samego."
+            – Josh Billings
+        </blockquote>
+
+        <p><b>Podium w kategorii "Najlepszy Pies Rodzinny":</b></p>
+
+        <ol>
+            <li>Golden Retriever – niezwykle łagodny i cierpliwy.</li>
+            <li>Labrador Retriever – skłonny do zabawy i bardzo wierny.</li>
+            <li>Berneński Pies Pasterski – spokojny olbrzym o wielkim sercu.</li>
+        </ol>
+
+        <p>
+            Więcej o cechach psów rodzinnych przeczytasz
+            na portalu
+            <a href="https://www.psy.pl"
+               target="_blank" rel="noopener noreferrer">Psy.pl</a>.
+        </p>
+    </section>
+
+    <!-- SEKCJA 2 -->
+
+    <section id="inteligentne">
+        <h2>Sekcja 2: Bystrzaki Psiego Świata –
+            Najinteligentniejsze Rasy</h2>
+
+        <p>
+            Intelekt u psów objawia się na wiele sposobów –
+            od szybkiego przyswajania komend,
+            po zdolność rozwiązywania złożonych problemów.
+            Według badań prowadzonych przez kynologów,
+            niekwestionowanym liderem w kategorii
+            inteligencji roboczej jest
+            <mark>Border Collie</mark>.
+            Psy tej rasy potrafią nauczyć się nowej komendy
+            w mniej niż pięć powtórzeń!
+        </p>
+
+        <p>
+            W ścisłej czołówce znajdują się również
+            Pudle oraz Owczarki Niemieckie.
+            Pamiętajmy jednak, że niezwykła inteligencja
+            psa wiąże się z dużym wyzwaniem dla właściciela.
+            Mądry pies, który się nudzi, może sam znaleźć
+            sobie zajęcie, co nie zawsze kończy się dobrze
+            dla domowych mebli.
+        </p>
+
+        <div class="galeria">
+            <img src="https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?w=800"
+                 alt="Border Collie na łące">
+        </div>
+
+        <p><b>Co wyróżnia psie bystrzaki?</b></p>
+
+        <ul>
+            <li>Błyskawiczne tempo uczenia się nowych komend.</li>
+            <li>Ogromna potrzeba stymulacji umysłowej i pracy z człowiekiem.</li>
+            <li>Wysoka wrażliwość na mowę ciała i gesty przewodnika.</li>
+        </ul>
+
+        <p>
+            Sprawdź oficjalny wzorzec rasy na stronie
+            <a href="https://www.fci.be"
+               target="_blank" rel="noopener noreferrer">
+                Międzynarodowej Federacji Kynologicznej (FCI)
+            </a>.
+        </p>
+    </section>
+
+    <!-- SEKCJA 3 -->
+
+    <section id="mieszkanie">
+        <h2>Sekcja 3: Idealni Towarzysze do Mieszkania w Bloku</h2>
+
+        <p>
+            Mieszkanie w mieście lub niewielki metraż
+            w bloku wcale nie wykluczają możliwości
+            posiadania psa.
+            Większość małych ras świetnie adaptuje się
+            do warunków mieszkaniowych, o ile zapewni im się
+            odpowiednią dawkę spacerów.
+            W tej kategorii od lat wielką popularnością
+            cieszą się <span class="wazne">Buldogi Francuskie</span>,
+            Cavalier King Charles Spaniele oraz Mopsy.
+        </p>
+
+        <p>
+            Kluczem do sukcesu przy wyborze psa do mieszkania
+            jest zwrócenie uwagi na jego umiarkowane
+            zapotrzebowanie na ruch oraz zrównoważone
+            usposobienie.
+            Psy te zazwyczaj rzadko szczekają,
+            co ułatwia dobre relacje z sąsiadami.
+        </p>
+
+        <div class="galeria">
+            <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=800"
+                 alt="Mały pies w mieszkaniu">
+        </div>
+
+        <p><b>Porównanie ras pod kątem warunków mieszkaniowych:</b></p>
+
+        <div class="tabela">
+            <table>
+                <tr>
+                    <th>Rasa</th>
+                    <th>Poziom hałasu</th>
+                    <th>Zapotrzebowanie na ruch</th>
+                </tr>
+                <tr>
+                    <td>Buldog Francuski</td>
+                    <td>Niski</td>
+                    <td>Umiarkowane</td>
+                </tr>
+                <tr>
+                    <td>Cavalier King Charles</td>
+                    <td>Niski / Średni</td>
+                    <td>Umiarkowane</td>
+                </tr>
+            </table>
+        </div>
+
+        <p>
+            Szukasz psa do adopcji? Odwiedź stronę
+            <a href="https://schroniskochorzow.pl"
+               target="_blank" rel="noopener noreferrer">
+                Lokalnego Schroniska dla Zwierząt
+            </a>.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Ranking Najlepszych Ras Psów.
+        Wszystkie prawa zastrzeżone.</p>
+</footer>
+
+</body>
+</html>
+
