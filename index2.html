@@ -212,26 +212,18 @@
 </footer>
 
     
-<!-- DATA I KALKULATOR JAVASCRIPT -->
-
-<section style="background-color: #f5eadc; padding: 25px; border-radius: 15px; text-align: center; margin: 30px auto; max-width: 600px; color: #5c4635;">
+<section style="background-color: #f5eadc; color: #5c4635; padding: 25px; border-radius: 15px; text-align: center; margin: 30px auto; max-width: 600px;">
 
   <h2>Dzisiejsza data</h2>
   <p id="data"></p>
 
-  <h2>Prosty kalkulator</h2>
-  <p>Wpisz dwie liczby, aby obliczyć ich sumę.</p>
+  <h2>Kalkulator wieku psa</h2>
+  <p>Sprawdź orientacyjny wiek psa w ludzkich latach!</p>
 
-  <input type="number" id="liczba1" placeholder="Pierwsza liczba"
-  style="padding: 10px; margin: 5px; border: 1px solid #bba58c; border-radius: 8px;">
+  <input type="number" id="wiek" min="0"
+  placeholder="Wiek psa w latach">
 
-  <input type="number" id="liczba2" placeholder="Druga liczba"
-  style="padding: 10px; margin: 5px; border: 1px solid #bba58c; border-radius: 8px;">
-
-  <br>
-
-  <button onclick="oblicz()"
-  style="background-color: #a88b6d; color: white; padding: 12px 25px; border: none; border-radius: 8px; margin-top: 15px; cursor: pointer;">
+  <button onclick="obliczWiek()">
     Oblicz
   </button>
 
@@ -240,35 +232,27 @@
 </section>
 
 <script>
-  // Aktualna data
   let dzisiaj = new Date();
 
   document.getElementById("data").textContent =
     dzisiaj.toLocaleDateString("pl-PL");
 
-  // Funkcja kalkulatora
-  function oblicz() {
-    let poleA = document.getElementById("liczba1").value;
-    let poleB = document.getElementById("liczba2").value;
+  function obliczWiek() {
+    let pole = document.getElementById("wiek").value;
+    let wiek = Number(pole);
 
-    if (poleA === "" || poleB === "") {
+    if (pole === "" || wiek < 0) {
       document.getElementById("wynik").textContent =
-        "Wpisz obie liczby!";
+        "Podaj poprawny wiek psa!";
     } else {
-      let a = Number(poleA);
-      let b = Number(poleB);
+      let ludzkieLata = wiek * 7;
 
-      if (a >= 0 && b >= 0) {
-        let suma = a + b;
-        document.getElementById("wynik").textContent =
-          "Wynik: " + suma;
-      } else {
-        document.getElementById("wynik").textContent =
-          "Podaj liczby dodatnie!";
-      }
+      document.getElementById("wynik").textContent =
+        "Wiek psa w ludzkich latach: " + ludzkieLata;
     }
   }
 </script>
+
 
 </body>
 </html>
