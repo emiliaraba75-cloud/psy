@@ -211,5 +211,64 @@
         Wszystkie prawa zastrzeżone.</p>
 </footer>
 
+    
+<!-- DATA I KALKULATOR JAVASCRIPT -->
+
+<section style="background-color: #f5eadc; padding: 25px; border-radius: 15px; text-align: center; margin: 30px auto; max-width: 600px; color: #5c4635;">
+
+  <h2>Dzisiejsza data</h2>
+  <p id="data"></p>
+
+  <h2>Prosty kalkulator</h2>
+  <p>Wpisz dwie liczby, aby obliczyć ich sumę.</p>
+
+  <input type="number" id="liczba1" placeholder="Pierwsza liczba"
+  style="padding: 10px; margin: 5px; border: 1px solid #bba58c; border-radius: 8px;">
+
+  <input type="number" id="liczba2" placeholder="Druga liczba"
+  style="padding: 10px; margin: 5px; border: 1px solid #bba58c; border-radius: 8px;">
+
+  <br>
+
+  <button onclick="oblicz()"
+  style="background-color: #a88b6d; color: white; padding: 12px 25px; border: none; border-radius: 8px; margin-top: 15px; cursor: pointer;">
+    Oblicz
+  </button>
+
+  <p id="wynik"></p>
+
+</section>
+
+<script>
+  // Aktualna data
+  let dzisiaj = new Date();
+
+  document.getElementById("data").textContent =
+    dzisiaj.toLocaleDateString("pl-PL");
+
+  // Funkcja kalkulatora
+  function oblicz() {
+    let poleA = document.getElementById("liczba1").value;
+    let poleB = document.getElementById("liczba2").value;
+
+    if (poleA === "" || poleB === "") {
+      document.getElementById("wynik").textContent =
+        "Wpisz obie liczby!";
+    } else {
+      let a = Number(poleA);
+      let b = Number(poleB);
+
+      if (a >= 0 && b >= 0) {
+        let suma = a + b;
+        document.getElementById("wynik").textContent =
+          "Wynik: " + suma;
+      } else {
+        document.getElementById("wynik").textContent =
+          "Podaj liczby dodatnie!";
+      }
+    }
+  }
+</script>
+
 </body>
 </html>
